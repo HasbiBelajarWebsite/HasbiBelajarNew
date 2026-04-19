@@ -1,0 +1,87 @@
+body{
+font-family:Arial, sans-serif;
+background:linear-gradient(#dff6ff,#ffffff);
+margin:0;
+padding:0;
+text-align:center;
+}
+
+.hasbi{
+background:linear-gradient(to bottom, white, #7ee7ff);
+-webkit-background-clip:text;
+color:transparent;
+font-weight:bold;
+font-size:32px;
+}
+
+.belajar{
+background:linear-gradient(to bottom, white, #ffe066);
+-webkit-background-clip:text;
+color:transparent;
+font-weight:bold;
+font-size:32px;
+}
+
+.container{
+max-width:800px;
+margin:auto;
+padding:10px;
+}
+
+.banner{
+width:100%;
+border-radius:20px;
+}
+
+.soal{
+background:white;
+padding:15px;
+margin:10px 0;
+border-radius:15px;
+}
+
+button{
+background:cyan;
+border:none;
+padding:10px 20px;
+border-radius:10px;
+cursor:pointer;
+font-size:16px;
+}
+
+.whatsapp-box{
+position:fixed;
+bottom:15px;
+left:15px;
+background:white;
+border:3px solid #25D366;
+border-radius:15px;
+padding:8px;
+cursor:pointer;
+display:none;
+}
+
+.whatsapp-box img{
+width:35px;
+}
+
+.tanggal{
+position:fixed;
+bottom:20px;
+right:20px;
+font-weight:bold;
+display:none;
+}
+#timer{
+position:fixed;
+top:10px;
+right:15px;
+background:#ffffff;
+border:3px solid cyan;
+padding:8px 18px;
+border-radius:15px;
+font-size:18px;
+font-weight:bold;
+box-shadow:0 2px 6px rgba(0,0,0,0.15);
+z-index:999;
+}
